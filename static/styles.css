@@ -1,0 +1,72 @@
+/* static/styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1500px;  /* Increase max-width for a wider container */
+    background-color: #fff;
+    padding: 60px;  /* Increase padding for more space around content */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 36px;
+}
+
+p {
+    color: #555;
+    font-size: 22px;
+    line-height: 1.8;
+}
+
+form {
+    margin-top: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;  /* Increase margin for labels */
+    font-weight: bold;
+    font-size: 22px;
+}
+
+textarea {
+    width: calc(100% - 20px);  /* Adjusted width for textarea */
+    padding: 15px;  /* Increased padding for textarea */
+    font-size: 18px;
+    border: 2px solid #ccc;  /* Increased border width for textarea */
+    border-radius: 8px;
+    margin-bottom: 20px;  /* Increased margin for textarea */
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 20px 25px;  /* Increased padding for submit button */
+    font-size: 24px;  /* Increased font size for submit button */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+h2 {
+    margin-top: 30px;
+    color: #333;
+    font-size: 28px;
+}
